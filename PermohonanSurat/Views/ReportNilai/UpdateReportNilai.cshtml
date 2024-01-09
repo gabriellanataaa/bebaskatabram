@@ -1,0 +1,102 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model PermohonanSurat.Models.ReportNilai
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add ReportNilai";
+}
+
+
+<h1>Update ReportNilai</h1>
+<form method="post" asp-controller="ReportNilai" asp-action="UpdateRaportNilai" class="mt-5">
+    <input type="hidden" asp-for="IdReportNilai" />
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="NamaSiswa">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<h1>Add RaportNilai</h1>
+<form asp-action="Add">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="IdReportNilai" class="control-label"></label>
+        <input asp-for="IdReportNilai" class="form-control" />
+        <span asp-validation-for="IdReportNilai" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nim"></label>
+        <input asp-for="Nim" class="form-control" />
+        <span asp-validation-for="Nim" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="IdPerusahaan" class="control-label"></label>
+        <input asp-for="IdPerusahaan" class="form-control" />
+        <span asp-validation-for="IdPerusahaan" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DepartemenSeksiArea" class="control-label"></label>
+        <input asp-for="DepartemenSeksiArea" class="form-control" />
+        <span asp-validation-for="DepartemenSeksiArea" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PeriodeBulan" class="control-label"></label>
+        <input asp-for="PeriodeBulan" class="form-control" />
+        <span asp-validation-for="PeriodeBulan" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PengetahuanKerja" class=" control-label"></label>
+        <input asp-for="PengetahuanKerja" class="form-control" />
+        <span asp-validation-for="PengetahuanKerja" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="KualitasKerja" class="control-label"></label>
+        <input asp-for="KualitasKerja" class="form-control" />
+        <span asp-validation-for="KualitasKerja" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="KecepatanKerja" class="control-label"></label>
+        <input asp-for="KecepatanKerja" class="form-control" />
+        <span asp-validation-for="KecepatanKerja" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SikapPerilaku" class="control-label"></label>
+        <input asp-for="SikapPerilaku" class="form-control" />
+        <span asp-validation-for="SikapPerilaku" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="KreatifitasKerjasama" class="control-label"></label>
+        <input asp-for="KreatifitasKerjasama" class="form-control" />
+        <span asp-validation-for="KreatifitasKerjasama" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SoftskillLeadership" class="control-label"></label>
+        <input asp-for="SoftskillLeadership" class="form-control" />
+        <span asp-validation-for="SoftskillLeadership" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SoftskillMenanganiMasalah" class="control-label"></label>
+        <input asp-for="SoftskillMenanganiMasalah" class="form-control" />
+        <span asp-validation-for="SoftskillMenanganiMasalah" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SoftskillBeradaptasi" class="control-label"></label>
+        <input asp-for="SoftskillBeradaptasi" class="form-control" />
+        <span asp-validation-for="SoftskillBeradaptasi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RataRata" class="control-label"></label>
+        <input asp-for="RataRata" class="form-control" />
+        <span asp-validation-for="RataRata" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Catatan" class="control-label"></label>
+        <input asp-for="Catatan" class="form-control" />
+        <span asp-validation-for="Catatan" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Update" class="btn btn-primary" />
+    </div>
+</form>

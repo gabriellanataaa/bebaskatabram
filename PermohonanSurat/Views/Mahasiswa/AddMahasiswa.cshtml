@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model PermohonanSurat.Models.Mahasiswa
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add Mahasiswa";
+}
+
+<h1>Add Mahasiswa</h1>
+<form asp-action="Add">
+    <div class="form-group">
+        <label asp-for="Nim"></label>
+        <input asp-for="Nim" class="form-control" />
+        <span asp-validation-for="Nim" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NamaMahasiswa"></label>
+        <input asp-for="NamaMahasiswa" class="form-control" />
+        <span asp-validation-for="NamaMahasiswa" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Alamat"></label>
+        <input asp-for="Alamat" class="form-control" />
+        <span asp-validation-for="Alamat" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NomorTelepon"></label>
+        <input asp-for="NomorTelepon" class="form-control" />
+        <span asp-validation-for="NomorTelepon" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Perusahaan"></label>
+        <input asp-for="Perusahaan" class="form-control" />
+        <span asp-validation-for="Perusahaan" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TanggalMagang"></label>
+        <input asp-for="TanggalMagang" type="date" class="form-control" />
+        <span asp-validation-for="TanggalMagang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlamatMagang"></label>
+        <input asp-for="AlamatMagang" class="form-control" />
+        <span asp-validation-for="AlamatMagang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="KotaMagang"></label>
+        <input asp-for="KotaMagang" class="form-control" />
+        <span asp-validation-for="KotaMagang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Simpan" class="btn btn-primary" />
+    </div>
+</form>

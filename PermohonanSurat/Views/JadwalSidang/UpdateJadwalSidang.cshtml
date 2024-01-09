@@ -1,0 +1,74 @@
+﻿@model PermohonanSurat.Models.JadwalSidang
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Update Jadwal Sidang";
+}
+
+<h1>Update Jadwal Sidang</h1>
+<form method="post" asp-controller="JadwalSidang" asp-action="UpdateJadwalSidang" class="mt-5">
+    <input type="hidden" asp-for="IdSidang" />
+    <div class="form-group">
+        <label asp-for="NamaMahasiswa"></label>
+        <input asp-for="NamaMahasiswa" class="form-control" />
+        <span asp-validation-for="NamaMahasiswa" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nim"></label>
+        <input asp-for="Nim" class="form-control" />
+        <span asp-validation-for="Nim" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="JudulTugasAkhir"></label>
+        <input asp-for="JudulTugasAkhir" class="form-control" />
+        <span asp-validation-for="JudulTugasAkhir" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Hari"></label>
+        <input asp-for="Hari" class="form-control" />
+        <span asp-validation-for="Hari" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TanggalSidang"></label>
+        <input asp-for="TanggalSidang" class="form-control" />
+        <span asp-validation-for="TanggalSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="WaktuSidang"></label>
+        <input asp-for="WaktuSidang" class="form-control" />
+        <span asp-validation-for="WaktuSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TempatSidang"></label>
+        <input asp-for="TempatSidang" class="form-control" />
+        <span asp-validation-for="TempatSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Penguji1"></label>
+        <input asp-for="Penguji1" class="form-control" />
+        <span asp-validation-for="Penguji1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Penguji2"></label>
+        <input asp-for="Penguji2" type="date" class="form-control" />
+        <span asp-validation-for="Penguji2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Penguji3"></label>
+        <input asp-for="Penguji3" class="form-control" />
+        <span asp-validation-for="Penguji3" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pembimbing1"></label>
+        <input asp-for="Pembimbing1" class="form-control" />
+        <span asp-validation-for="Pembimbing1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Pembimbing2"></label>
+        <input asp-for="Pembimbing2" class="form-control" />
+        <span asp-validation-for="Pembimbing2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Update" class="btn btn-primary" />
+    </div>
+</form>
+

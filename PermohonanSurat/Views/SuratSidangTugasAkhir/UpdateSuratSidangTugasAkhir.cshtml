@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model PermohonanSurat.Models.SuratSidangTugasAkhir
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Add SidangTugasAkhir";
+}
+
+
+<h1>Update SidangTugasAkhir</h1>
+<form method="post" asp-controller="SidangTugasAkhir" asp-action="UpdateSidangTugasAkhir" class="mt-5">
+    <input type="hidden" asp-for="IdSidang" />
+    <div class="form-group">
+        <label asp-for="IdSidang"></label>
+        <input asp-for="IdSidang" class="form-control" />
+        <span asp-validation-for="IdSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="JudulTugasAkhir"></label>
+        <input asp-for="JudulTugasAkhir" class="form-control" />
+        <span asp-validation-for="JudulTugasAkhir" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TanggalSidang"></label>
+        <input asp-for="TanggalSidang" class="form-control" />
+        <span asp-validation-for="TanggalSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="WaktuSidang"></label>
+        <input asp-for="WaktuSidang" class="form-control" />
+        <span asp-validation-for="WaktuSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TempatSidang"></label>
+        <input asp-for="TempatSidang" class="form-control" />
+        <span asp-validation-for="TempatSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AlamatSidang"></label>
+        <input asp-for="AlamatSidang" class="form-control" />
+        <span asp-validation-for="AlamatSidang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PembimbingAkademik"></label>
+        <input asp-for="PembimbingAkademik" type="date" class="form-control" />
+        <span asp-validation-for="PembimbingAkademik" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PengujiPolman"></label>
+        <input asp-for="PengujiPolman" class="form-control" />
+        <span asp-validation-for="PengujiPolman" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PembimbingIndustri"></label>
+        <input asp-for="PembimbingIndustri" class="form-control" />
+        <span asp-validation-for="PembimbingIndustri" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PembimbingIndustri1"></label>
+        <input asp-for="PembimbingIndustri1" class="form-control" />
+        <span asp-validation-for="PembimbingIndustri1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PembimbingIndustri2"></label>
+        <input asp-for="PembimbingIndustri2" class="form-control" />
+        <span asp-validation-for="PembimbingIndustri2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Update" class="btn btn-primary" />
+    </div>
+</form>
+

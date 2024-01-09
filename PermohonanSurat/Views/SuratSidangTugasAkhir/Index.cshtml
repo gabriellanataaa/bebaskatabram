@@ -1,0 +1,61 @@
+﻿
+@model List<PermohonanSurat.Models.SuratSidangTugasAkhir>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "SidangTugasAkhir Page";
+}
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">SidangTugasAkhir</h1>"
+    </div>
+    <div>
+        <a asp-asp-controller="SidangTugasAkhir" asp-action="AddSidangTugasAkhir">Add New SidangTugasAkhir</a>
+    </div>
+    <div class="student-list">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id Sidang</th>
+                    <th>Judul Tugas Akhir</th>
+                    <th>Tanggal Sidang</th>
+                    <th>Waktu Sidang</th>
+                    <th>Tempat Sidang</th>
+                    <th>Alamat Sidang</th>
+                    <th>Pembimbing Akademik</th>
+                    <th>Penguji Polman</th>
+                    <th>Pembimbing Industri</th>
+                    <th>Pembimbing Industri 1</th>
+                    <th>Pembimbing Industri 2</th>
+                    <th>HRD</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdSidang</td>
+                        <td>@item.JudulTugasAkhir</td>
+                        <td>@item.TanggalSidang</td>
+                        <td>@item.WaktuSidang</td>
+                        <td>@item.TempatSidang</td>
+                        <td>@item.AlamatSidang</td>
+                        <td>@item.PembimbingAkademik</td>
+                        <td>@item.PengujiPolman</td>
+                        <td>@item.PembimbingIndustri</td>
+                        <td>@item.PembimbingIndustri1</td>
+                        <td>@item.PembimbingIndustri2</td>
+                        <td>@item.Hrd</td>
+                        <td>
+                            <a asp-asp-controller="SidangTugasAkhir" asp-route-id="@item.IdSidang" asp-action="UpdateSidangTugasAkhir"> Update</a>
+                            <a asp-asp-controller="SidangTugasAkhir" asp-route-id="@item.IdSidang" asp-action="DeleteSidangTugasAkhir"> Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

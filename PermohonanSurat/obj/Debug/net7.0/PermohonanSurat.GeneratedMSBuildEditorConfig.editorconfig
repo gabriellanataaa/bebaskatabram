@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PermohonanSurat
+build_property.RootNamespace = PermohonanSurat
+build_property.ProjectDir = C:\Users\Nata\source\repos\PermohonanSurat\PermohonanSurat\PermohonanSurat\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Nata\source\repos\PermohonanSurat\PermohonanSurat\PermohonanSurat
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/JadwalSidang/AddJadwalSidang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFkd2FsU2lkYW5nXEFkZEphZHdhbFNpZGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/JadwalSidang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFkd2FsU2lkYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/JadwalSidang/UpdateJadwalSidang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmFkd2FsU2lkYW5nXFVwZGF0ZUphZHdhbFNpZGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Mahasiswa/AddMahasiswa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXEFkZE1haGFzaXN3YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Mahasiswa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Mahasiswa/UpdateMahasiswa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFoYXNpc3dhXFVwZGF0ZU1haGFzaXN3YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Perusahaan/AddPerusahaan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVydXNhaGFhblxBZGRQZXJ1c2FoYWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Perusahaan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVydXNhaGFhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Perusahaan/UpdatePerusahaan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVydXNhaGFhblxVcGRhdGVQZXJ1c2FoYWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/ReportNilai/AddReportNilai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0TmlsYWlcQWRkUmVwb3J0TmlsYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/ReportNilai/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0TmlsYWlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/ReportNilai/UpdateReportNilai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0TmlsYWlcVXBkYXRlUmVwb3J0TmlsYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/SuratSidangTugasAkhir/AddSuratSidangTugasAkhir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyYXRTaWRhbmdUdWdhc0FraGlyXEFkZFN1cmF0U2lkYW5nVHVnYXNBa2hpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/SuratSidangTugasAkhir/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyYXRTaWRhbmdUdWdhc0FraGlyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/SuratSidangTugasAkhir/UpdateSuratSidangTugasAkhir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyYXRTaWRhbmdUdWdhc0FraGlyXFVwZGF0ZVN1cmF0U2lkYW5nVHVnYXNBa2hpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nata/source/repos/PermohonanSurat/PermohonanSurat/PermohonanSurat/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ym0tav3kz3
